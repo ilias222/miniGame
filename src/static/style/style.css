@@ -1,0 +1,138 @@
+*{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+body{
+    background-image: url('http://localhost:9001/src/static/img/title.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header {
+    width: 70%;
+}
+
+.header_linerBar {
+    background-color: #000000;
+}
+
+ul.header_linerBar__actionInner {
+    display: flex;
+    color: #ffffff;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
+
+li {
+    margin: 0px 50px 0px 0px;
+    user-select: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #9d36aabd;
+}
+
+hr {
+    width: 90%;
+}
+
+.gameMiniPage {
+    background-color: #000;
+    color: #ffff;
+    width: 70%;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+.inlineInfoCard {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+img.coverGame {
+    width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+p.discript_game_GOGO_Jump {
+    margin: 15px;
+    width: 700px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    user-select: none;
+    cursor: context-menu;
+}
+
+p.title_game {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 21px;
+    margin: 0px;
+    user-select: none;
+}
+
+.actionLiner__bottom {
+    display: flex;
+    justify-content: end;
+    margin-right: 10%;
+    position: relative;
+}
+
+.game_stat {
+    margin: 10px 9px;
+    padding: 6px;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 39px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.game_stat:hover {
+    background-color: transparent;
+    color: #9d36aabd;
+    border: 1px solid #9d36aabd;
+}
+
+.info_box {
+    position: absolute;
+    width: 300px;
+    color: #000;
+    background-color: #ffff;
+    padding: 27px;
+    border-radius: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    top: 100%;
+    left: 78%;
+}
+
+.stat_box {
+    position: absolute;
+    width: 300px;
+    color: #000;
+    background-color: #ffff;
+    padding: 27px;
+    border-radius: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    top: 100%;
+    left: 78%;
+}
+
+iframe {
+    display: flex;
+    width: 55%;
+    height: 900px;
+    border: none;
+}
